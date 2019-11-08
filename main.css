@@ -1,0 +1,11 @@
+.element{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    transition: transform 1s ease-in;
+    
+}
+
+.element:hover {
+    transform: translateX(100%);
+}
